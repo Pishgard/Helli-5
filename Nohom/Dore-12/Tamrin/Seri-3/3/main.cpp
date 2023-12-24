@@ -9,7 +9,7 @@ int main()
         cin >> a[i];
     for (int j = 0; j < n; j++)
     {
-        if (a[j] != 0)
+        if (a[j] > 1)
         {
             min++;
             for (int s = j; s < n && sum < 4; s++)
