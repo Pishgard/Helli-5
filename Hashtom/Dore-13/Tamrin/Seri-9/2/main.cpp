@@ -1,24 +1,25 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
-    int n, i, j, s, m;
+    int n, m = 1, c = 1;
     cin >> n;
-    m = (n - 1) / 2;
-    for (int i = 0, s = 1; i <= m; i++, s += 2)
+
+    int a[n];
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+
+    for (int i = 1; i < n; i++)
     {
-        for (int j = 0; j < m - i; j++)
-            cout << " ";
-        for (int k = 0; k < s; k++)
-            cout << "*";
-        cout << endl;
+        if (a[i] >= a[i - 1])
+        {
+            c++;
+            if (c > m)
+                m = c;
+        }
+        else
+            c = 1;
     }
-    for (int i = 0, s = n - 2; i < m; i++, s -= 2)
-    {
-        for (int j = m; j >= m - i; j--)
-            cout << " ";
-        for (int k = 0; k < s; k++)
-            cout << "*";
-        cout << endl;
-    }
+    cout << m;
 }
