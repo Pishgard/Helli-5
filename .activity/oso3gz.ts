@@ -1,2 +1,0 @@
-# hrzefmesvgazt20z0yvxh4u
-# zyzqwlt8gt8ptil3tpqkudtove50gplhtq

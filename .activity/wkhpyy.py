@@ -1,3 +1,0 @@
-# umdd6p8phgbl62xjrc3fg7d8p2njglphrza4vs
-# 6yvnf1ufe8e7lg1equlmrjkepex
-# 6yhjp1sm9ekjwg6lht8ser6qsh
